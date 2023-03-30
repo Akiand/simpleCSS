@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2.1vh;
+}
+
+body {
+    text-align: center;
+    font-size: 1rem;
+    z-index: 0;
+}
+
+.居中, .simpleCenter{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.块居中, .blockCenter{
+    width: fit-content;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
