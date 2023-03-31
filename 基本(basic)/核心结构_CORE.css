@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-.块居中, .blockCenter{
+.块内居中, .blockCenter{
     width: fit-content;
     position: relative;
     transform: translate(-50%, -50%);
